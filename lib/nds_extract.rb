@@ -29,10 +29,9 @@ def list_of_directors(source)
   index = 0 
   list = []
   while index < source.length do 
-    list << (source[i][:name])
+    puts list << source[i][:name]
     index += 1 
   end 
-  list 
 end
 
 def total_gross(source)
