@@ -46,6 +46,9 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
+  # Why create additional vars that burry what is being worked on deeper? :
+    #director_earnings = directors_totals(source)
+    #directors_names = list_of_directors(source)
   
   i = 0 
   total_gross = 0 
