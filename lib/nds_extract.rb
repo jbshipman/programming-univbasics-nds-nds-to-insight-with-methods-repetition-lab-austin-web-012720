@@ -47,12 +47,12 @@ def total_gross(source)
   # return the total
   
   director_earnings = directors_totals(source)
-  director_names = list_of_directors(source)
+  #director_names = list_of_directors(source)
   
   i = 0 
   total_gross = 0 
   
-  while i < director_names.length do 
+  while i < list_of_directors(source).length do 
     name = director_names[i]
     total_gross += director_earnings[name]
     i += 1 
